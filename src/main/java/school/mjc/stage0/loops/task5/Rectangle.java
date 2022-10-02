@@ -6,9 +6,9 @@ public class Rectangle {
         {
             for(int y = 1; y<=length; y++)
             {
-                if(x==1 || x==length)
+                if(x==1 || x==height)
                     System.out.print(8);
-                else if(y==1 || y==height)
+                else if(y==1 || y==length)
                     System.out.print(8);
                 else
                     System.out.print(' ');
